@@ -15,7 +15,7 @@ gasoil = 0
 
 print("Bienvenido a la estación de servicio\n")
 
-for i in range(3):
+for i in range(10):
     surtidor = int(input("Ingrese el número de surtidor, un valor entre 1 y 30: "))
     tipo_combustible = {1: "Nafta Super", 2: "Nafta Especial", 3: "Gasoil"}
 
@@ -39,7 +39,7 @@ for i in range(3):
     elif tipo == 3:
         gasoil += litros_surtidor
     print()    
-promedio_litros = total_litros / 3
+promedio_litros = total_litros / 10
 print("La cantidad total de Nafta Super es: ", nafta_super)
 print("La cantidad total de Nafta Especial es: ", nafta_especial)
 print("La cantidad total de Gasoil es: ", gasoil)
