@@ -35,7 +35,7 @@ def generar_ruleta():
     return ruleta
 
 #
-# print(generar_ruleta())
+print(generar_ruleta())
 ruleta = generar_ruleta()
 cant_num_par = 0
 cant_num_impar = 0
